@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Skyline Realty - FAQ</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/skyline-logo.jpeg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- Offline Font Awesome -->
+     <link rel="stylesheet" href="offline-fonts/css/all.css">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+     <!-- Bootstrap 5 Offline Files -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <!-- CSS Template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="faq-page">
+
+      <div class="container-xxl bg-white p-0">
+        
+        <!-- SPINNER Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- SPINNER End -->
+
+
+        <!-- NAVBAR Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="p-2 me-2">
+                        <img class="img-fluid" src="logo.png" alt="Skyline Logo" style="width: 70px; height: 30px; overflow: hidden;">
+                    </div>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="property-type.html" class="dropdown-item">Property Type</a>
+                                <a href="property-list.html" class="dropdown-item">Property List</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="faq.html" class="nav-item nav-link active">FAQ</a>
+                    </div>
+                    <button class="light-dark" id="theme-toggle" aria-label="Toggle Theme"> 🌞 </button>
+                </div>
+            </nav>
+        </div>
+        <!-- NAVBAR Ends -->
+
+
+
+  <main class="main">
+
+        <!-- PAGE HEADER Starts  -->
+
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(img/page-title/showcase-8.webp);">
+      <div class="container position-relative">
+        <h1>Frequently Asked Questions</h1>
+        <p class="fw-bold">Find clear answers to common real estate questions, from buying and selling to financing and property management."</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Frequently Asked Questions</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- PAGE HEADER Ends  -->
+
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-start gy-4">
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-sidebar">
+              <div class="faq-image">
+                <img src="img/illustration/illustration-5.webp" alt="FAQ Image" class="img-fluid" loading="lazy">
+              </div>
+              <div class="contact-box">
+                <h3><i class="fa fa-headset"></i> Need Assistance?</h3>
+                <p>Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+                <a href="#" class="btn-contact">Connect with Support</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="faq-tabs">
+              <ul class="nav nav-pills mb-4" id="faqTabs-faq" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="general-tab-faq" data-bs-toggle="pill" data-bs-target="#general-faq-faq" type="button" role="tab" aria-controls="general-faq-faq" aria-selected="true">General Inquiries</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="account-tab-faq" data-bs-toggle="pill" data-bs-target="#account-faq-faq" type="button" role="tab" aria-controls="account-faq-faq" aria-selected="false">Account Services</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="payment-tab-faq" data-bs-toggle="pill" data-bs-target="#payment-faq-faq" type="button" role="tab" aria-controls="payment-faq-faq" aria-selected="false">Billing &amp; Payments</button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="faqTabsContent-faq">
+                <div class="tab-pane fade show active" id="general-faq-faq" role="tabpanel" aria-labelledby="general-tab-faq">
+                  <div class="accordion" id="generalAccordion-faq">
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                      <h3>What services do you offer?</h3>
+                      <div class="faq-content">
+                        <p>We help clients buy, sell, lease, and invest in verified residential and commercial properties across Nigeria.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                      <h3>How do I know a property is genuine?</h3>
+                      <div class="faq-content">
+                        <p>We carry out proper verification, including title checks and seller confirmation, before any transaction.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                      <h3>What documents should a property have?</h3>
+                      <div class="faq-content">
+                        <p>Key documents include C of O, Governor’s Consent, Deed of Assignment, Survey Plan, and Excision or Gazette.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                      <h3>Which locations do you cover?</h3>
+                      <div class="faq-content">
+                        <p>We focus on prime and fast-growing areas in Lagos and other strategic locations in Nigeria.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+                      <h3>Do you work with clients abroad?</h3>
+                      <div class="faq-content">
+                        <p>Yes. <br> We assist diaspora clients through virtual inspections and secure, transparent transactions. <a href="contact.html">Contact us</a></p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+                      <h3>Do you assist with documentation?</h3>
+                      <div class="faq-content">
+                        <p>Yes. <br> We support documentation review and processing with trusted legal professionals.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+                      <h3>Why use a real estate consultant?</h3>
+                      <div class="faq-content">
+                        <p>We protect your interest, verify properties, negotiate value, and prevent costly mistakes.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                  </div>
+                </div>
+
+
+
+                <div class="tab-pane fade" id="account-faq-faq" role="tabpanel" aria-labelledby="account-tab-faq">
+                  <div class="accordion" id="accountAccordion-faq">
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                      <h3>How do I get started?</h3>
+                      <div class="faq-content">
+                        <p>Contact us via phone, WhatsApp, or email to schedule a consultation. <a href="contact.html">Contact Us</a></p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <!-- <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                      <h3>How to update account information?</h3>
+                      <div class="faq-content">
+                        <p>Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div> -->
+                    <!-- End FAQ Item-->
+                  </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="payment-faq-faq" role="tabpanel" aria-labelledby="payment-tab-faq">
+                  <div class="accordion" id="paymentAccordion-faq">
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                      <h3>Do you offer payment plans?</h3>
+                      <div class="faq-content">
+                        <p>Yes.<br> Some properties come with flexible installment options, depending on the seller or developer.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div><!-- End FAQ Item-->
+
+                    <!-- <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                      <h3>When will my payment be processed?</h3>
+                      <div class="faq-content">
+                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div> -->
+                    <!-- End FAQ Item-->
+
+                    <!-- <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                      <h3>Can I get a refund for my purchase?</h3>
+                      <div class="faq-content">
+                        <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec sollicitudin molestie malesuada.</p>
+                      </div>
+                      <i class="fa fa-chevron-down faq-toggle"></i>
+                    </div> -->
+                    <!-- End FAQ Item-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+  </main>
+
+  
+
+
+        <!-- FOOTER Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>7, Alahji folami street, Ajah, Lagos</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+2349040308910</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>Skylineprorealty@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://wa.me/+2349040308910"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+                        <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="property-list.html">Property List</a>
+                        <a class="btn btn-link text-white-50" href="property-type.html">Property</a>
+                        <!-- <a class="btn btn-link text-white-50" href="">Terms & Condition</a> -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Photo Gallery</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+							
+							Designed By <a class="border-bottom" href="https://grayrabbitfolio.netlify.app">GrayRabbit</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <!-- <a href="">Cookies</a> -->
+                                <!-- <a href="">Help</a> -->
+                                <a href="faq.html">FAQs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER End -->
+
+
+
+          <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/+234" class="whatsapp-button" target="_blank" aria-label="Chat on WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="whatsapp-icon" />
+  </a>
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg c-btn btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+    </div>
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="app.js"></script>
+
+
+    <script>
+  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle, .faq-item .faq-header').forEach((faqItem) => {
+    faqItem.addEventListener('click', () => {
+      faqItem.parentNode.classList.toggle('faq-active');
+    });
+  });
+    </script>
+
+</body>
+
+</html>
