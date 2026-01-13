@@ -453,6 +453,7 @@ a{
     padding: 5px;
     border: 1px solid var(--green);
     border-radius: 70px;
+    object-fit: cover;
 }
 
 .testimonial-left img:nth-child(1),
@@ -484,6 +485,7 @@ a{
 .testimonial-carousel .owl-item img {
     width: 120px;
     height: 120px;
+    object-fit: cover;
 }
 
 .testimonial-carousel .testimonial-icon {
